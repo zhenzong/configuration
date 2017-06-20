@@ -1,0 +1,10 @@
+[user]
+	name = 振宗
+	email = zhenzong.peng@icloud.com
+[core]
+	editor = emacs
+[alias]
+	co = checkout
+	st = status
+	last = log -1 HEAD
+  logall = log --oneline --decorate --graph --all
