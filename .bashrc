@@ -10,7 +10,7 @@ CLASSPATH=.:${JAVA_HOME}/lib/dt.jar:${JAVA_HOME}/lib/tools.jar
 PYTHONPATH=~/Workspace/toutiao/cgutil/:~/Workspace/toutiao/pyutil/
 
 # PATH
-PATH=${JAVA_HOME}/bin:${MYSQL_HOME}:${PATH}
+PATH=${JAVA_HOME}/bin:${MYSQL_HOME}:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 export PATH
 export CLASSPATH
