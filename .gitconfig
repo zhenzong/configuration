@@ -5,6 +5,7 @@
 	editor = emacs
 [alias]
 	co = checkout
+	br = branch
 	st = status
 	last = log -1 HEAD
-  logall = log --oneline --decorate --graph --all
+  	logall = log --oneline --decorate --graph --all
