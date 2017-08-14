@@ -1,6 +1,11 @@
 [user]
 	name = 振宗
 	email = zhenzong.peng@icloud.com
+[color]
+        status = auto
+	diff = auto
+        branch = auto
+        interactive = auto
 [core]
 	editor = emacs
 [alias]
@@ -8,4 +13,4 @@
 	br = branch
 	st = status
 	last = log -1 HEAD
-  	logall = log --oneline --decorate --graph --all
+  	logall = log --oneline --decorate --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
